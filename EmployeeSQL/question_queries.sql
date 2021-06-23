@@ -64,4 +64,4 @@ order by emp_no;
 select last_name, count(last_name) as frequency
 from employees
 group by last_name
-order by last_name desc;
+order by frequency desc;
